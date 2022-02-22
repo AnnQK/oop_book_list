@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Book list</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">Book List</h1>
+    </header>
+    <main>
+      <section class="container">
+        <h2>Add book</h2>
+
+        <form id="add-book" class="book-form">
+          <div class="book-form__title input-box">
+            <label for="title">Title</label>
+            <input type="text" id="title" class="title-input" />
+          </div>
+
+          <div class="book-form__author input-box">
+            <label for="title">Author</label>
+            <input type="text" id="author" class="title-input" />
+          </div>
+
+          <div class="book-form__time input-box">
+            <label for="title">Reading Time</label>
+            <input type="text" id="time" class="title-input" />
+          </div>
+
+          <div class="book-form__btn input-box">
+            <input type="submit" value="Submit" class="btn" />
+          </div>
+        </form>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Year</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="book-list"></tbody>
+        </table>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

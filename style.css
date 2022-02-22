@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.success,
+.error {
+  color: #fff;
+  padding: 5px;
+  margin: 1rem 0;
+}
+
+.success {
+  background-color: #51cf66;
+}
+
+.error {
+  background-color: #fa5252;
+}
+
+.header-title {
+  margin-bottom: 5rem;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.book-form {
+  padding: 1rem;
+  background-color: #a5d8ff;
+}
+
+.input-box {
+  padding: 1rem;
+  width: 10rem;
+  text-align: center;
+  margin: auto;
+}
+
+table {
+  margin: 2rem auto;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #a5d8ff;
+}
+
+td {
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0b7285;
+  font-weight: 600;
+}
